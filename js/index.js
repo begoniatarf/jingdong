@@ -1,0 +1,97 @@
+var i=1;
+$(function(){
+	$(".item").click(function(){
+		$(".place").text($(this).text());
+	})
+})
+$(function(){
+	$(".list_l1").hover(function(){
+		$(".main_nav_list").css("display","block");
+		$(".main_list1").css("display","block");
+	})
+})
+$(function(){
+	$(".main_list1").hover(function(){
+		$(".main_nav_list").css("display","block");
+		$(".main_list1").css("display","block");
+	})
+})
+$(function(){
+	$(".list_l1").mouseleave(function(){
+		$(".main_nav_list").css("display","none");
+		$(".main_list1").css("display","none");
+	})
+})
+$(function(){
+	$(".main_list1").mouseleave(function(){
+		$(".main_nav_list").css("display","none");
+		$(".main_list1").css("display","none");
+	})
+})
+$(function(){
+	$(".list_l2").hover(function(){
+		$(".main_nav_list").css("display","block");
+		$(".main_list2").css("display","block");
+	})
+})
+$(function(){
+	$(".main_list2").hover(function(){
+		$(".main_nav_list").css("display","block");
+		$(".main_list2").css("display","block");
+	})
+})
+$(function(){
+	$(".list_l2").mouseleave(function(){
+		$(".main_nav_list").css("display","none");
+		$(".main_list2").css("display","none");
+	})
+})
+$(function(){
+	$(".main_list2").mouseleave(function(){
+		$(".main_nav_list").css("display","none");
+		$(".main_list2").css("display","none");
+	})
+})
+$(function(){
+	$(".ac").hover(function(){
+		$(".trans").css("transform","translateX(0px)");
+		$(".middle_right_middle_bottom1").css("display","block");
+		$(".middle_right_middle_bottom2").css("display","none");
+	})
+})
+$(function(){
+	$(".ag").hover(function(){
+		$(".trans").css("transform","translateX(52px)");
+		$(".middle_right_middle_bottom1").css("display","none");
+		$(".middle_right_middle_bottom2").css("display","block");
+	})
+})
+$(function(){
+	$(".arrow_r").click(function(){
+		if(i==1){
+			$(".middle_top_img2").fadeToggle("slow");
+			$(".middle_top_img1").hide();
+			i++;
+		}
+		else if(i==2){
+			$(".middle_top_img3").fadeToggle("slow");
+			$(".middle_top_img2").hide();
+			i++;
+		}
+	})
+})
+$(function(){
+	$(".arrow_l").click(function(){
+		if(i==3){
+			$(".middle_top_img2").fadeToggle("slow");
+			$(".middle_top_img3").hide();
+			i--;
+		}
+		else if(i==2){
+			$(".middle_top_img1").fadeToggle("slow");
+			$(".middle_top_img2").hide();
+			i--;
+		}
+	})
+})
+

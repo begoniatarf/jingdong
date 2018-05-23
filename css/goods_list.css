@@ -1,0 +1,253 @@
+*{padding: 0px; margin: 0px;}
+body{
+	font:  12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+	color: #666;
+	background-color: #f6f6f6;
+}
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+#miao{
+	height: 305px;
+	width: 100%;
+}
+#miao .miao_head{
+	height: 55px;
+	width: 1140px;
+	padding: 0 20px 0 30px;
+	color: white;
+	background-color: #e01222;
+	position: relative;
+}
+#miao .miao_bottom{
+	width: 1190px;
+	height: 225px;
+	padding: 12px 0;
+}
+#miao .miao_head_l{
+	width: 304px;
+	height: 49px;
+	float: left;
+}
+#miao .miao_head_clock{
+	height: 40px;
+	width: 34px;
+	margin: 8px 8px 0 0;
+	float: left;
+	background-image: url(../img/sprite_index@1x.png);
+	background-repeat:no-repeat ;
+	background-position-y:-40px;
+}
+#miao .miao_head_l_w{
+	float: left;
+	width: 104px;
+	height: 40px;
+	margin-top: 9px;
+	font-size: 26px;
+	font-weight: 500px;
+	line-height: 40px;
+}
+#miao .miao_head_l_ww{
+	float: left;
+	margin: 19px 0 0 12px;
+	padding-right: 20px;
+	height: 24px;
+	line-height: 24px;
+	width: 126px;
+}
+#miao .miao_bottom_l{
+	width: 1000px;
+	height: 225px;
+	float: left;
+	background-color: white;
+}
+#miao .miao_bottom_l ul{
+	width: 1000px;
+	height: 225px;
+	background-color: white;
+	float: left;
+}
+#miao .miao_bottom_l li{
+	float: left;
+	list-style: none;
+	height: 170px;
+	width: 170px;
+	height: 225px;
+	padding: 0 14px 0 15px;
+	border-right: solid 1px #e7e7e7;
+	cursor: pointer;
+}
+#miao .miao_bottom_l_img{
+	width: 170px;
+	height: 196px;
+}
+#miao .miao_bottom_l_img img{
+	margin: 17px 20px;
+	vertical-align: middle;
+	transform:translateY(0) ;
+	transition: transform .4s ease;
+}
+#miao .miao_bottom_l_img p{
+	color: #999999;
+	font-size: 12px;
+	height: 32px;
+	line-height: 16px;
+}
+#miao .miao_bottom_l li:hover .miao_bottom_l_img p{
+	color: #C60C1B;
+}
+#miao .miao_bottom_r{
+	height: 225px;
+	width: 180px;
+	margin-right: 10px;
+	float: left;
+}
+#miao .miao_bottom_l_w{
+	height: 25px;
+	width: 170px;
+	padding: 3px 0;
+}
+#miao .miao_bottom_l_w .span1{
+	color: #F10215;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 8px;
+}
+#miao .miao_bottom_l_w .span2{
+	text-decoration: line-through;
+}
+#love_live{
+	height: 578px;
+	margin-bottom: 30px;
+}
+#love_live .lo_title{
+	height: 35px;
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 1190px;
+	text-align: center;
+	font-size: 24px;
+}
+#love_live .lo_main{
+	width: 1190px;
+	height: 523px;
+	margin: 0 auto;
+}
+.lo_main_box1{
+	height: 523px;
+	float: left;
+	margin-right: 10px;
+	width: 590px;
+}
+.tg{
+	background-color: #9c4175;
+}
+.tm{
+	background-color: #cb365b;
+}
+.tj{
+	background-color: #6a4485;
+}
+.gj{
+	background-color: #59688f;
+}
+.tc{
+	background-color: #35a6a4;
+}
+.as{
+	background-color: #508978;
+}
+.lo_main_box2{
+	height: 523px;
+	float: left;
+	width: 590px;
+}
+.main_box_title{
+	height: 26px;
+	width: 545px;
+	padding: 16px 20px;
+}
+.main_box_title p{
+	height: 26px;
+	line-height: 26px;
+	color: white;
+	font-weight: 500px;
+	float: left;
+	font-size: 22px;
+}
+.main_box_bottom{
+	height: 445px;
+	width: 570px;
+	padding: 10px;
+	background-color: white;
+}
+.img_trans{
+	transform: translateX(0);
+	transition: transform .4s ease;
+}
+.tags{
+	height: 28px;
+	float: right;
+}
+.tags li{
+	list-style: none;
+	padding: 0 10px;
+	float: right;
+	height: 24px;
+	border: solid 1px rgba(255,255,255,0.2);
+	margin-left: 10px;
+	line-height: 24px;
+	color: white;
+	background-color: rgba(255,255,255,0.3);
+	cursor: pointer;
+}
+.tags li:hover{
+	border: solid 1px white;
+}
+.main_box_bottom_s{
+	width: 570px;
+	float: left;
+	height: 445px;
+}
+.main_box_bottom_zs{
+	height: 260px;
+	width: 183px;
+	margin-right: 10px;
+	float: left;
+}
+.main_box_bottom_ys{
+	width: 376px;
+	height: 260px;
+	float: left;
+}
+.zf{
+	float: left;
+}
+.main_box_bottom_x{
+	width: 570px;
+	float: left;
+}
+
+.main_box_bottom_x li{
+	float: left;
+	width: 193px;
+	list-style: none;
+	padding-top: 10px;
+}
+.main_box_bottom_x  .lz{
+	width: 173px;
+}
+.main_box_bottom_d{
+	height: 35px;
+	width: 570px;
+	padding-top: 10px;
+}
+#telephone{
+	height: 523px;
+	margin-bottom: 30px;
+}
+#sport{
+	height: 523px;
+}
+

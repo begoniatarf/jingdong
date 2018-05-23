@@ -1,0 +1,25 @@
+$(function(){
+	$(".miao_img").hover(function(){
+		$(this).css("transform","translateY(-10px)");
+	})
+})
+$(function(){
+	$(".miao_img").mouseleave(function(){
+		$(this).css("transform","translateY(0px)");
+	})
+})
+$(function(){
+	$(".miao_img").mouseleave(function(){
+		$(this).css("transform","translateY(0px)");
+	})
+})
+$(function(){
+	$(".img_trans").hover(function(){
+		$(this).css("transform","translateX(-5px)");
+	})
+})
+$(function(){
+	$(".img_trans").mouseleave(function(){
+		$(this).css("transform","translateX(0px)");
+	})
+})
